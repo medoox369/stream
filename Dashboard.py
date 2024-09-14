@@ -24,7 +24,6 @@ st.set_page_config(
 df = pd.read_csv("Udemy_Courses.csv")
 # Sidebar
 st.sidebar.header("Udemy Courses Dashboard")
-st.sidebar.image("udemy.jpg", width=270)
 st.sidebar.write(
     "This is a simple dashboard to analyze the [Udemy](https://www.udemy.com/) Courses Data :two_hearts:"
 )
